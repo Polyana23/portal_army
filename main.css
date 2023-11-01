@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+}
+
+body {
+    background-color: rgb(223, 214, 235);
+}
+
+body, input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(25, 2, 46);
+    color: rgb(212, 175, 241);
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: rgb(212, 175, 241);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: rgb(25, 2, 46);
+    justify-content: space-between;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+section img{
+    margin-right: 32px;
+    width: 45%;
+}
+
+section nav ol {
+    margin-left: 16px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-right: 8px;
+}
+
+section nav ul {
+    margin-left: 16px;
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    justify-content: space-between;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: rgb(25, 2, 46);
+    color: rgb(212, 175, 241);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(192, 139, 241);
+}
+
+input:focus, textarea:focus{
+    outline-color: rgb(192, 139, 241);
+}
+
+footer {
+    background-color: rgb(25, 2, 46);
+    color: rgb(212, 175, 241);
+    padding: 16 px 0;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li{
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods {
+    display: inline;
+    justify-content: space-between;
+}
+
+.store-front {
+    margin-right: 32px;
+    width: 60%
+}
+
